@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [URL here](https://www.frontendmentor.io/solutions/order-summary-card-using-flexbox-and-grid-RjuFms5t1)
+- Live Site URL: [URL here](https://order-summary-card-solution-n0c18id4p-llalanmendozall.vercel.app/)
 
 ## My process
 

@@ -10,9 +10,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-- [Author](#author)
-
-
 
 ## Overview
 

@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+:root {
+  /* primary */
+  --pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+
+  /* Neutral */
+
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsla(224, 23%, 55%, 0.062);
+  --Dark-blue: hsl(223, 47%, 23%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display";
+  font-size: 16px;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-color: var(--pale-blue);
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.card {
+  width: 400px;
+  height: 580px;
+  background-color: var(--Very-pale-blue);
+  border-radius: 15px;
+}
+
+.card-img img {
+  max-width: 100%;
+  max-height: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card-title h1 {
+  margin: 20px 0;
+  text-align: center;
+  color: var(--Dark-blue);
+  font-weight: 900;
+  font-size: 24px;
+}
+.card-body {
+  padding: 0 30px;
+}
+.card-body .paragraph {
+  color: var(--Dark-blue);
+  font-weight: 500;
+  text-align: center;
+  opacity: 0.8;
+}
+.card-order-details {
+  margin: 15px 0;
+  background: var(--Desaturated-blue);
+  border-radius: 10px;
+  padding: 15px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50px 200px auto;
+  align-items: center;
+}
+.card-order-details p {
+  margin: 0 10px;
+}
+.card-order-details a {
+  color: var(--Bright-blue);
+  font-weight: 700;
+}
+.details p:first-child {
+  font-weight: 700;
+  color: var(--Dark-blue);
+}
+.details p:nth-child(2) {
+  color: var(--Dark-blue);
+  opacity: 0.6;
+}
+.card-footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+#btn-payment {
+  padding: 12px;
+  background-color: var(--Bright-blue);
+  margin-bottom: 10px;
+  color: var(--Very-pale-blue);
+  font-weight: 700;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: -1px 8px 22px -4px rgba(0, 0, 0, 0.66);
+  -webkit-box-shadow: -1px 8px 22px -4px rgba(0, 0, 0, 0.66);
+  -moz-box-shadow: -1px 8px 22px -4px rgba(0, 0, 0, 0.66);
+}
+#btn-payment:hover {
+  opacity: 0.8;
+}
+#btn-cancel {
+  background: none;
+  border: none;
+  font-weight: 900;
+  color: var(--Dark-blue);
+  opacity: 0.7;
+  padding: 15px;
+}
+#btn-cancel:hover {
+  opacity: 1;
+}
